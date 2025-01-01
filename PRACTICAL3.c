@@ -11,7 +11,7 @@ const char *keywords[] = {
     "short", "signed", "sizeof", "static", "struct", "switch", "typedef", "union", "unsigned", "void",
     "volatile", "while"
 };
-
+ 
 int isKeyword(const char *word) {
     for (int i = 0; i < sizeof(keywords) / sizeof(keywords[0]); i++) {
         if (strcmp(word, keywords[i]) == 0)
